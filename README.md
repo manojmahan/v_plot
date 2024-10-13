@@ -10,7 +10,7 @@ cd v_plot
 ## 2. Creating Virtual enviornment
 run the followring command 
 ~~~
-mamba create -n vlot_env pandas numpy matplotlib
+mamba create -n vplot_env pandas numpy matplotlib
 ~~~
 to activate this env run
 ~~~
