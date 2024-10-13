@@ -19,7 +19,8 @@ mamba activate vplot_env
 
 ## 3. download the data 
 ~~~
-curl -JLO "https://figshare.com/ndownloader/files/49307590?private_link=972ecdfe69d6ce038ca0" -o data/mapped.bed.gz
+curl -JLO "https://figshare.com/ndownloader/files/49307590?private_link=972ecdfe69d6ce038ca0"
+mv mapped.bed.gz data/
 ~~~
 
 ## 4. run bash script
